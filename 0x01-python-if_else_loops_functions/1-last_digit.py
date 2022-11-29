@@ -6,8 +6,8 @@ if number_2 < 0:
     number_2 = -number_2
 print(f"Last string of {number} is {number_2}")
 if number_2 > 5:
-    print("greater than 5")
+    print("and is greater than 5")
 elif number_2 == 0:
-    print("is 0")
+    print("and is 0")
 else:
-    print("is less than 6 and not 0")
+    print("and is less than 6 and not 0")
