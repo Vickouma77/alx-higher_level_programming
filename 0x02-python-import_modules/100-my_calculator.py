@@ -2,9 +2,9 @@
 if __name__ == "__main__":
     import sys
 
-    nargs = len(sys.arg) - 1
-    if args != 3:
-         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
+    nargs = len(sys.argv) - 1
+    if nargs != 3:
+        print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys.exit(1)
 
     op = sys.argv[2]
