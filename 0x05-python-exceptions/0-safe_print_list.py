@@ -13,5 +13,5 @@ def safe_print_list(my_list=[], x=0):
             break
         i += 1
 
-        print()
+        print("\n")
         return printed
