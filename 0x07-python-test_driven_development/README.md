@@ -18,6 +18,7 @@ doctest is a module in Python that allows you to embed test cases in the documen
 To use doctest, you need to include test cases in the documentation of your code. The test cases should be written as interactive Python sessions, with the input followed by the expected output. For example:
 
 '''
+
 def add(a, b):
     """
     Add two numbers and return the result.
@@ -28,6 +29,7 @@ def add(a, b):
     >>> add(10, 20)
     30
     """
+   
     return a + b
 '''
 
