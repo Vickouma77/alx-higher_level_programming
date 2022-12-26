@@ -17,8 +17,7 @@ doctest is a module in Python that allows you to embed test cases in the documen
 
 To use doctest, you need to include test cases in the documentation of your code. The test cases should be written as interactive Python sessions, with the input followed by the expected output. For example:
 
-'''
-
+```
 def add(a, b):
     """
     Add two numbers and return the result.
@@ -31,7 +30,7 @@ def add(a, b):
     """
    
     return a + b
-'''
+```
 
 # UNITTEST
 The unittest module is a unit testing framework in Python. It is part of the standard library and provides a way to write and run automated tests for your code.
@@ -40,7 +39,7 @@ To use unittest, you need to create a test case class that subclasses unittest.T
 
 Here's a simple example of a test case class:
 
-'''
+```
 import unittest
 
 class TestStringMethods(unittest.TestCase):
@@ -58,4 +57,4 @@ class TestStringMethods(unittest.TestCase):
         # check that s.split fails when the separator is not a string
         with self.assertRaises(TypeError):
             s.split(2)
-'''
+```
