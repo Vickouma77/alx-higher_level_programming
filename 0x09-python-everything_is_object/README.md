@@ -10,12 +10,14 @@ In one case it may refer to different things an second case they can refer to th
 
 This things are called ***objects*** An object is something a variable can refer to. 
 
-- we can test if two names have same values using > == :
-``
+- we can test if two names have same values using >== 
+
+```
 >> a == b
 True
-``
+```
 - Test whether two names refer to the same object using the *is* operator:
+
 ```
 >> a is b
 True
