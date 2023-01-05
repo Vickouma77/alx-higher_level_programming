@@ -83,3 +83,24 @@ f = File('test.txt', 'w')
 # do something with the file
 del f  # file is closed when the File object is deleted
 ```
+### __str__
+In Python, the __str__ method is a special method that is used to specify a string representation of an object. This representation is used when the str() function is applied to an instance of the object, and it is also used when the object is printed using the print() function.
+
+The __str__ method is defined in the object's class and should return a string representation of the object that is suitable for printing or display to the user. It is generally used to return a more user-friendly string representation of the object, as opposed to the __repr__ method, which should return a more developer-friendly representation.
+
+Here is an example of how the __str__ method can be used:
+```
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __str__(self):
+        return f'({self.x}, {self.y})'
+
+p = Point(1, 2)
+print(p)  # Output: (1, 2)
+```
+In this example, the Point class has an __init__ method that initializes the x and y attributes of the instance, and a __str__ method that returns a string representation of the object in the form (x, y), where x and y are the values of the x and y attributes of the object. When the print function is called on an instance of the Point class, the __str__ method is called to generate a string representation of the object, which is then printed to the console.
+
+It is generally a good idea to define a __str__ method for your classes, as it can make it easier to understand and debug your code. It is also possible to define a __repr__ method, which is similar to __str__, but is used to generate a more developer-friendly string representation of the object.
