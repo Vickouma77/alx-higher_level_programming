@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-#1-my_list.py
+#!/usr/bin/python
 """Define a class that inherits from list"""
 
 
