@@ -10,4 +10,4 @@ def lookup(obj):
         List of attributes
     """
 
-    return list(obj)
+    return (dir(obj))
