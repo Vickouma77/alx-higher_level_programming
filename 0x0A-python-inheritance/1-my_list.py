@@ -1,6 +1,5 @@
 #!/usr/bin/python
 #1-my_list.py
-
 """Define a class that inherits from list"""
 
 
