@@ -9,6 +9,6 @@ class MyList(list):
     def print_sorted(self):
         """that prints the list, but sorted in ascending sort"""
 
-        list_sorted = self.copy()
-        list_sorted.sort()
+        l_sorted = self.copy()
+        l_sorted.sort()
         print(l_sorted)
