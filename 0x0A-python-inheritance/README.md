@@ -35,3 +35,6 @@ class Dog(Animal):
     def make_sound(self):
         print("Woof!")
 ```
+In this example, the Animal class is the base class, and the Cat and Dog classes are derived from it. The Cat and Dog classes inherit the name and species attributes and the make_sound() method from the Animal class, and they also have additional attributes and behaviors of their own.
+
+To use inheritance, you define a new class that is derived from an existing class, using the syntax class DerivedClass(BaseClass):. Then, you can use the derived class like any other class in your code.
