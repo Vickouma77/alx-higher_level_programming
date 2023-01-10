@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 # 0-read_file.py
-
 """Describes a function that reads text files"""
 
 
