@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-
-"""defines a class that defines students"""
+"""defines a class that defines students
+"""
 
 
 class Student:
-    """class of Student
-    """
+    """class of Student instances"""
 
     def __init__(self, first_name, last_name, age):
         """Defines instation of class Student"""
