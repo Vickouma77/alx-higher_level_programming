@@ -8,8 +8,8 @@ from models.Base import  Base
 class Rectangle(Base):
     """class Rectangle which inherits Base properties"""
 
-    __width -> width
-    __height -> height
-    __x -> x
-    __y -> y
+    self.width = width
+    self.height = height
+    self.x = x
+    self.y = y
     super().__init__(id)
