@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-
-"""Writes the first class base"""
+"""Module that contains the class base"""
+import json
+import csv
+import os.path
 
 class Base:
     """A base class
