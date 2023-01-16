@@ -16,7 +16,7 @@ class Square(Rectangle):
         """
         super().__init__(size, size, x, y, id)
 
-        @property
+    @property
     def size(self):
         """Get/set the size of the Square."""
         return self.width
