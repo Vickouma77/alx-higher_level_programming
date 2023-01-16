@@ -5,7 +5,10 @@ from models.base import  Base
 
 
 class Rectangle(Base):
-    """class Rectangle which inherits Base properties
+    """class Rectangle which inherits Base properties"""
+
+    def __init__(self, width, height, x=0, y=0, id=None):
+        """Initialize a Rectangle
 
      Args:
             width (int): The width of the new Rectangle.
@@ -25,3 +28,4 @@ class Rectangle(Base):
     self.x = x
     self.y = y
     super().__init__(id)
+
