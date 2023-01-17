@@ -1,1 +1,9 @@
-if/else, loops and functions in python
+# If/Else, Loops and Functions in Python
+
+## IF
+
+## Else
+
+## Loops
+
+## Functions
