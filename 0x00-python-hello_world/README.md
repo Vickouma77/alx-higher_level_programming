@@ -1,2 +1,9 @@
-Python is a Higher level programming language developed by Guido van Rossum
+# PYTHON HELLO WORLD
+
+A simple python project to introduce python 
+
+syntax:
+
+```
+print("hello, world")
 
