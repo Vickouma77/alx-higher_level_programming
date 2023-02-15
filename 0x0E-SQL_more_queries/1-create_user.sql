@@ -1,0 +1,1 @@
+-- creating new user with all privilages
