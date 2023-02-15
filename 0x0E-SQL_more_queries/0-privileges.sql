@@ -1,0 +1,1 @@
+-- listing all privilages for user
