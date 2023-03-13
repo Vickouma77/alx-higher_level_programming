@@ -1,4 +1,4 @@
 #!/usr/bin/node
 
 const argCount = process.arg;
-console.log(argCount === 0 ? 'No argument' : 'No argument');
+console.log(argCount === 0 ? 'No argument' : process.arg);
