@@ -1,4 +1,3 @@
 #!/usr/bin/node
-
-const argCount = process.argv;
-console.log(argCount === 0 ? 'No argument' : 'No argument');
+const [, arg] = process.argv;
+console.log(arg || 'No argument');
