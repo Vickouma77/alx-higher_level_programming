@@ -15,9 +15,10 @@ if __name__ == '__main__':
             db=sys.arv[3],
             port=3306)
     cursor = db.cursor()
-    cursor.execute("SELECT * FROM states WHERE name LIKE BINARY 'N%' ORDERED BY id ASC")
+    sql = "SELECT * FROM states WHERE name LIKE BINARY 'N%' ORDERED BY id ASC"
+    cursor.execute(sql)
     rows = cursor.fetchall()
     for row in rows:
         print(row)
-   # cursor.close()
+    cursor.close()
     db.close()
