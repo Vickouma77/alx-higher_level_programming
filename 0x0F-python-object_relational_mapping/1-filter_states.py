@@ -9,7 +9,7 @@ import sys
 
 if __name__ == '__main__':
     db = MySQLdb.connect(
-            host="localhos",
+            host="localhost",
             user=sys.argv[1],
             passwd=sys.argv[2],
             db=sys.arv[3],
