@@ -15,7 +15,7 @@ if __name__ == '__main__':
             db=sys.arv[3],
             port=3306)
     cursor = db.cursor()
-    cursor.execute("SELECT * FROM states WHERE name LIKE 'N' BY id ASC")
+    cursor.execute("SELECT * FROM states WHERE name LIKE 'N' ORDERED BY id ASC")
     rows = cursor.fetchall()
     print(rows)
     cursor.close()
