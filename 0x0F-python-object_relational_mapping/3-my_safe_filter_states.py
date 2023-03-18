@@ -3,7 +3,6 @@
    all values in the states table of hbtn_0e_0_usa
 """
 
-
 import MySQLdb
 import sys
 
@@ -14,7 +13,7 @@ if __name__ == '__main__':
             passwd=sys.argv[2],
             db=sys.argv[3],
             port=3306)
-    cursor = db.cursor
+    cursor = db.cursor()
     state = sys.argv[4]
     cursor.execute("SELECT * FROM states WHERE name LIKE %s", (state, ))
     rows = cursor.fetchall()
