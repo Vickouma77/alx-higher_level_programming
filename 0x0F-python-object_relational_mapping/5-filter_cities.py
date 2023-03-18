@@ -14,11 +14,9 @@ if __name__ == "__main__":
             db=sys.argv[3],
             port=3306)
     cursor = db.cursor()
-    cities = sys.argv[4]
-    cursor.execute("""SELECT cities.id cities.name states.name
-                      FROM cities JOIN states ON cities.id WHERE
-                      states.name LIKE %s ORDER BY cities.id ASC
-                   """)
+    cursor.execute("""SELECT cities. FROM cities INNER JOIN states
+                      ON states.id=cities.state_id WHERE
+                      states.name=%s""", (sys.argv[4]))
     rows = cursor.fetchall()
     value = list(row[0] for row in rows)
     print(*value, sep=", ")
