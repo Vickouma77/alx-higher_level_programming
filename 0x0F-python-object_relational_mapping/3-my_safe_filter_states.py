@@ -16,7 +16,8 @@ if __name__ == '__main__':
             port=3306)
     cursor = db.cursor
     states_name = sys.argv[4]
-    cursor.execute("SELECT * FROM state WHERE name LIKE '%s'" (states_name, ))
+    cursor.execute("SELECT * FROM state WHERE name LIKE '%s'
+                   ORDER BY state.id" (states_name, ))
     rows = cursor.fetchall()
     for row in rows:
         print(row)
