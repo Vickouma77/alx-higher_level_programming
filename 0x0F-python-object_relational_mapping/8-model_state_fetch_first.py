@@ -3,9 +3,9 @@
 
 
 import sys
+from model_state import Base, State
 from sqlalchemy (import create_engine)
 from sqlalchemy.orm import sessionmaker
-from model_state import Base, State
 
 
 if __name__ = "__main__":
@@ -15,7 +15,7 @@ if __name__ = "__main__":
     Session = sessionmaker(bind=engine)
     session = Session()
     instance = session.query(State).first()
-    if state is None:
+    if instance is None:
         print("Nothing")
     else:
         print(instance.id, instance.name, sep=": ")
