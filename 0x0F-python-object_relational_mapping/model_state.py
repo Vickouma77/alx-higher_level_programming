@@ -4,7 +4,7 @@
 """
 
 import sys
-from model_base import Base, States
+from model_state import Base, States
 
 from sqlalchemy import create_engine
 
