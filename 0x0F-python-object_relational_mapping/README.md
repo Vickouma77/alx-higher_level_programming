@@ -1,6 +1,6 @@
 # Python - Object-relational mapping
 
-This is a Python-based ORM (Object-Relational Mapping) project that allows users to interact with a database using Python classes and objects. This project uses the SQLAlchemy library for database connectivity and management.
+This is a Python-based ORM (Object-Relational Mapping) project that allows users to interact with a database using Python classes and objects. This project uses the SQLAlchemy library for database connectivity and management. ALSO(SQLdb)
 
 ## Installation
 To install this project, you can either clone the repository or download the source code as a zip file.
