@@ -5,7 +5,7 @@ https://alx-intranet.hbtn.io/status
 
 
 if __name__ == '__main__':
-    import urllib
+    import urllib.request
 
     with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as hbtn:
         body = hbtn.read()
