@@ -17,3 +17,5 @@ In this project, we will be using JavaScript to extract data from websites.
 [4-starwars_count.js](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x14-javascript-web_scraping/4-starwars_count.js):prints the number of movies where the character “Wedge Antilles” is present.
 
 [5-request_store.js](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x14-javascript-web_scraping/5-request_store.js):script that gets the contents of a webpage and stores it in a file.
+
+[6-completed_tasks.js](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x14-javascript-web_scraping/6-completed_tasks.js):script that computes the number of tasks completed by user id.
