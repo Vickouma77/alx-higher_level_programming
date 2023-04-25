@@ -13,3 +13,5 @@ In this project, we will be using JavaScript to extract data from websites.
 [2-statuscode.js](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x14-javascript-web_scraping/2-statuscode.js):script that display the status code of a GET request
 
 [3-starwars_title.js](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x14-javascript-web_scraping/3-starwars_title.js):prints the title of a Star Wars movie where the episode number matches a given integer.
+
+[4-starwars_count.js](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x14-javascript-web_scraping/4-starwars_count.js):prints the number of movies where the character “Wedge Antilles” is present.
