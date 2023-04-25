@@ -3,9 +3,9 @@
 const request = require('request');
 const url = process.argv[2];
 
-request(url, function (error, response, body) {
+request(url, function (err, response, body) {
   if (err) {
-    console.log(error);
+    console.log(err);
   } else if (response.statusCode === 200) {
     const completed = {};
     const tasks = JSON.parse(body);
