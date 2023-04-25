@@ -10,4 +10,6 @@ In this project, we will be using JavaScript to extract data from websites.
 
 [1-writeme.js](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x14-javascript-web_scraping/1-writeme.js):script that writes a string to a file
 
-[2--statuscode.js](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x14-javascript-web_scraping/2-statuscode.js):script that display the status code of a GET request
+[2-statuscode.js](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x14-javascript-web_scraping/2-statuscode.js):script that display the status code of a GET request
+
+[3-starwars_title.js](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x14-javascript-web_scraping/3-starwars_title.js):prints the title of a Star Wars movie where the episode number matches a given integer.
