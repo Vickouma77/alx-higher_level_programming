@@ -30,8 +30,7 @@
 [103-main.html](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/103-main.html)
 
 ## Javascript
-[0-script.js](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/0-script.js)
-
+[0-script.js](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/0-script.js)  
 [1-script.js](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/1-script.js)
 
 [2-script.js](https://github.com/Vickouma77/alx-higher_level_programming/blob/master/0x15-javascript-web_jquery/1-script.js)
